@@ -1,0 +1,9 @@
+<div class="container__main-card">
+    <div class="container__image-main-card">
+        <h1 class="short-title-main-card">{{ titleCardsGeneral }}</h1>
+        <img src="{{imageCard}}"
+            alt="" srcset="">
+    </div>
+    <h1 class="title-main-card"><a [routerLink]="['content', id]">{{ titleCard }}</a></h1>
+    <p class="content-main-card"><a [routerLink]="['content', id]">{{descriptionCard}}</a></p>
+</div>

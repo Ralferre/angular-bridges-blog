@@ -1,0 +1,21 @@
+.container__menu-bar {
+    color: white;
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.container__menu-bar > li {
+    margin-left: 30px;
+    
+}
+
+.container__menu-bar > img {
+    width: 18px;
+    height: 18px;
+    margin-left: 30px;
+    
+}
